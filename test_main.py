@@ -1,4 +1,4 @@
-from main import saludo
+from main import suma
 
-def test_saludo():
-    assert saludo("Mundo") == "Hola, Mundo!"
+def test_suma():
+    assert suma(2,3) == 5
