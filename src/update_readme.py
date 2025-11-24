@@ -24,7 +24,7 @@ def update_readme(status: str):
 
     with open("README.md", "a") as f:
         ahora = datetime.now()
-        f.write(ahora + ": " + status + "\n")
+        f.write(str(ahora) + ": " + status + "\n")
     
 if __name__ == "__main__":
     status = run_tests()
